@@ -38,7 +38,7 @@ jobs:
             ~/.NeuralPlayground/*
           key: cached-test-data
           enableCrossOsArchive: true
-      - uses: neuroinformatics-unit/actions/test@v2.0.0
+      - uses: neuroinformatics-unit/actions/test@v2
         with:
           python-version: ${{ matrix.python-version }}
           use-xvfb: true
